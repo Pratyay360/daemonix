@@ -11,3 +11,5 @@ org.onlyoffice.desktopeditors \
 com.valvesoftware.Steam \
 com.heroicgameslauncher.hgl \
 com.github.tchx84.Flatseal \
+io.github.flattool.Warehouse \
+io.github.kolunmi.Bazaar 

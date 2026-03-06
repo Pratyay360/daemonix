@@ -4,7 +4,6 @@ RM_PACKAGES=(
   konsole
   kate
   nvtop
-  kfind
   krfb
   kcharselect
 )
@@ -18,8 +17,6 @@ PACKAGES=(
   fastfetch
   libavcodec-freeworld
   mpv
-  gamescope
-  gamemode
   VK_hdr_layer
   docker-ce
   docker-ce-cli
