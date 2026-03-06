@@ -3,14 +3,11 @@
 flatpak -y install flathub \
 com.ranfdev.DistroShelf \
 io.podman_desktop.PodmanDesktop \
-io.github.dvlv.boxbuddyrs \
-io.github.shiftey.Desktop \
-com.google.AndroidStudio \
-org.gnu.emacs \
-com.getpostman.Postman \
-sh.loft.devpod \
-org.wireshark.Wireshark \
-org.nmap.Zenmap \
-md.obsidian.Obsidian \
-org.gnome.Boxes \
-org.filezillaproject.Filezilla
+org.telegram.desktop \
+io.github.tobagin.karere \
+com.brave.Browser \
+com.discordapp.Discord \
+org.onlyoffice.desktopeditors \
+com.valvesoftware.Steam \
+com.heroicgameslauncher.hgl \
+com.github.tchx84.Flatseal \

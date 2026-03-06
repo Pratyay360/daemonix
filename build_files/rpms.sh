@@ -1,21 +1,12 @@
 #!/bin/bash
 
-# Removed RPMS
-
 RM_PACKAGES=(
-  firefox
   konsole
   kate
-  htop
   nvtop
   kfind
   krfb
   kcharselect
-  kde-connect
-  kwalletmanager
-  filelight
-  kdebugsettings
-  fcitx5
 )
 
 dnf remove -y "${RM_PACKAGES[@]}"
@@ -38,7 +29,8 @@ PACKAGES=(
   code
   btop
   ghostty
-  librewolf
+  fish
+  cloudflare-warp
 )
 
 dnf install --setopt=install_weak_deps=False -y "${PACKAGES[@]}"
