@@ -6,7 +6,6 @@ RM_PACKAGES=(
   nvtop
   krfb
   kcharselect
-  google-cloud-cli
 )
 
 dnf remove -y "${RM_PACKAGES[@]}"
@@ -28,7 +27,6 @@ PACKAGES=(
   btop
   ghostty
   fish
-  cloudflare-warp
 )
 
 dnf install --setopt=install_weak_deps=False -y "${PACKAGES[@]}"
