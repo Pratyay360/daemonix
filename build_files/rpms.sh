@@ -6,6 +6,7 @@ RM_PACKAGES=(
   nvtop
   krfb
   kcharselect
+  google-cloud-cli
 )
 
 dnf remove -y "${RM_PACKAGES[@]}"
